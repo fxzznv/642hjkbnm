@@ -1,0 +1,86 @@
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: xuecocNo1
+    ports:
+      - "0.0.0.0:27017:27017"  # Добавьте 0.0.0.0 для внешнего доступа
+    command: ["--bind_ip_all"]  # Это важно для внешних подключений
+    volumes:
+      - mongodb-data:/data/db
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+    networks:
+      - app-network
+    restart: unless-stopped
+
+  wallapop-string-parser:
+    build:
+      context: ./wallapop-string-parser
+      dockerfile: Dockerfile
+    environment:
+      KAFKA_BROKER: 62.60.246.153:29092
+      ENV_FILE: .env
+    env_file:
+      - .env
+
+  wallapop-autobuter:
+    build:
+      context: ./wallapop-autobuter
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    privileged: true
+    devices:
+      - /dev/shm:/dev/shm
+    shm_size: 2gb
+    environment:
+      KAFKA_BROKER: 62.60.246.153:29092
+      PYTHONUNBUFFERED: 1
+      MONGO_URI: "mongodb://root:xuecocNo1@mongodb:27017/samoregi_db?authSource=admin"
+      TZ: Europe/Moscow
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      DISPLAY: 99
+    env_file:
+      - .env
+    depends_on:
+      - mongodb
+    networks:
+      - app-network
+
+  web_server:
+    build:
+      context: .         # вместо ./web
+      dockerfile: web/Dockerfile
+    container_name: web
+    ports:
+      - "5000:5000"
+    environment:
+      FLASK_ENV: production
+      REDIS_HOST: 62.60.246.153  # Замените на актуальный хост вашего Redis сервера
+      REDIS_PASSWORD: xuecocNo1
+      # REDIS_PORT: 6379  # Раскомментируйте, если порт отличается от стандартного
+    volumes:
+      - ./web:/webServer
+      - ./recaptcha_solver_for_wallapop:/recaptcha_solver_for_wallapop
+    restart: unless-stopped
+    networks:
+      - app-network
+
+  captcha-service:
+    build:
+      context: ./recaptcha_solver_for_wallapop
+      dockerfile: Dockerfile
+    container_name: captcha-service
+    environment:
+      ENV_FILE: .env
+      REDIS_HOST: 62.60.246.153
+      REDIS_PASSWORD: xuecocNo1
+    env_file:
+      - .env
+
+networks:
+ app-network:
+   driver: bridge
+volumes:
+  mongodb-data:
