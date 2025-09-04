@@ -1,0 +1,10 @@
+2025-08-19 16:15:56,878 - src.mail.mail_api - INFO - Начало get_junk_email_configuration:
+2025-08-19 16:15:56,899 - src.mail.mail_api - INFO - Начало get_junk_email_configuration:
+2025-08-19 16:15:57,230 - src.mail.mail_api - DEBUG - (get_junk_email_configuration): Запрос успешен. Конфигурация фильтрации спама:
+2025-08-19 16:15:57,231 - src.mail.mail_api - DEBUG - (get_junk_email_configuration): Разбор json успешен
+2025-08-19 16:15:57,231 - src.mail.mail_api - INFO - Начало search_custom_emails:
+2025-08-19 16:15:57,342 - src.mail.mail_api - DEBUG - (get_junk_email_configuration): Запрос успешен. Конфигурация фильтрации спама:
+2025-08-19 16:15:57,342 - src.mail.mail_api - DEBUG - (get_junk_email_configuration): Разбор json успешен
+2025-08-19 16:15:57,342 - src.mail.mail_api - INFO - Начало search_custom_emails:
+2025-08-19 16:15:57,537 - src.mail.mail_api - INFO - (search_custom_emails): Статус код: 200
+2025-08-19 16:15:57,858 - src.mail.mail_api - INFO - (search_custom_emails): Статус код: 200

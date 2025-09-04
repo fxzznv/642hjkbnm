@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/recaptcha_solver_for_wallapop" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wallapop-autobuter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wallapop-string-parser" vcs="Git" />
+  </component>
+</project>
