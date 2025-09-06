@@ -25,7 +25,7 @@ RECIPIENT_ID = int(os.getenv('TELEGRAM_RECIPIENT_ID'))
 MAX_WORKERS = int(os.getenv('MAX_WORKERS'))
 TOPIC_NAME = os.getenv('TOPIC')
 
-INPUT_FILE = "1.txt"
+INPUT_FILE = "../wallapop-string-parser/1.txt"
 
 app = Client(
     "my_account",
@@ -107,6 +107,11 @@ def process_account(mail, password):
 
         print(f"{mail}: такая почта есть на валлапопе")
         message = f"{mail}:{password}"
+
+        requests.post("http://localhost:8080/bot{}/start-cpatch", data={
+            "flag": True,
+        }),
+
         # Отправляем сообщение и ждем подтверждения
         future = producer.send(TOPIC_NAME, value=message)
         try:

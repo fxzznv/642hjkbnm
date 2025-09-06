@@ -5,76 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc705e67-938f-46e7-8283-5ed9d920900b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recaptcha-solver-for-wallapop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/capSolver+Redis/.dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/capSolver+Redis/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/capSolver+Redis/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/capSolver+Redis/.idea/capSolver+Redis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/capSolver+Redis/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/capSolver+Redis/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/capSolver+Redis/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/capSolver+Redis/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/capSolver+Redis/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/cap_solver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/capSolver+Redis/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recaptcha_solver_for_wallapop/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/.idea/kulturnykod80.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/4test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/4test2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/4test3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/contacts.csv" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/contacts.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/docs/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/docs/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/input/base.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/input/base.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/input/samoregi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/input/samoregi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-18_01-22-46/info@info.wallapop.com.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-18_01-23-07/info@info.wallapop.com.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-18_01-30-37/info@info.wallapop.com.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-18_01-36-00/info@info.wallapop.com.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-18_01-37-54/info@info.wallapop.com.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-18_01-38-40/info@info.wallapop.com.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-19_01-06-23/info@info.wallapop.com.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-19_01-06-44/blocked/info@info.wallapop.com.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-19_01-06-44/info@info.wallapop.com.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-19_01-06-44/invalid.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-19_01-06-44/locked.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-19_01-11-09/blocked/info@info.wallapop.com.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-19_01-11-09/info@info.wallapop.com.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-19_01-11-09/invalid.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-19_01-11-09/locked.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-19_01-15-47/blocked/info@info.wallapop.com.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-19_01-15-47/info@info.wallapop.com.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-19_01-15-47/invalid.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/mail_logs/2025-08-19_01-15-47/locked.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/program_running_logging/2025-08-18_01-30-37.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/program_running_logging/2025-08-18_01-36-00.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/logs/program_running_logging/2025-08-18_01-36-01.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/autobuter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/src/logging/logger_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/src/logging/logger_init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/src/mail/mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/src/mail/mail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/src/mail/mail_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/src/mail/mail_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/src/mail/utils/delete_outlook_mails.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/src/mail/utils/delete_outlook_mails.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/src/password/reset_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/src/password/reset_password.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/src/password/utils/proxy_cfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/src/password/utils/proxy_cfg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/src/walla_login/email_change.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/src/walla_login/email_change.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/src/walla_login/utils/account.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/src/walla_login/utils/adspower_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/src/walla_login/utils/adspower_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/src/walla_login/utils/captcha_solver_cfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/src/walla_login/utils/captcha_solver_cfg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/src/walla_login/utils/docker_container_manipulation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/src/walla_login/utils/walla_login_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/src/walla_login/utils/walla_login_constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/src/walla_login/walla_login_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/src/walla_login/walla_login_account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/src/walla_login/walla_user_information.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallapop-autobuter/src/walla_login/walla_user_information.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop-autobuter/гандоныэ.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallapop_autobuter" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/wallapop-autobuter" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectColorInfo">{
@@ -103,32 +34,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.123.executor&quot;: &quot;Run&quot;,
-    &quot;Python.autobuter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.base_parser.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cap_solver.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mongodb_migration.executor&quot;: &quot;Run&quot;,
-    &quot;Python.proxy_cfg.executor&quot;: &quot;Run&quot;,
-    &quot;Python.redis_samoreg_extracting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.webServer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.редис для бота.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/penc/Desktop/666/autobuter_v2/656/wallapop-string-parser&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.123.executor": "Run",
+    "Python.autobuter.executor": "Run",
+    "Python.base_parser.executor": "Run",
+    "Python.cap_solver.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.mongodb_migration.executor": "Run",
+    "Python.proxy_cfg.executor": "Run",
+    "Python.redis_samoreg_extracting.executor": "Run",
+    "Python.webServer.executor": "Run",
+    "Python.редис для бота.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/penc/Desktop/666/autobuter_v2/656/my_account.session"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my_account.session" />
       <recent name="$PROJECT_DIR$/wallapop-string-parser" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/recaptcha-solver-for-wallapop" />
       <recent name="$PROJECT_DIR$/watchdog" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wallapop_autobuter" />
@@ -141,7 +73,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d9fa9deec7cb-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.23892.515" />
+        <option value="bundled-python-sdk-8753aad8314d-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.25557.178" />
       </set>
     </attachedChunks>
   </component>
